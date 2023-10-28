@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Playpen+Sans:100,200,300,regular,500,600,700,800);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playpen Sans';
+  font-size: 16px;
+  padding: 20px 50px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav > img {
+  width: 750px;
+}
+
+.subtitulo {
+  margin: 60px 80px 80px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.containerMenu {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  line-height: 33px;
+}
+
+.containerLeft {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerRight {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 200px;
+}
+
+.container2 {
+  width: 130px;
+}
+
+.container3 {
+  width: 290px;
+}
+
+.container4 {
+  width: 130px;
+}
+
+ul {
+  list-style: none;
+}
+
+.containerTxt {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+button {
+  font-family: 'Playpen Sans';
+  font-size: 1rem;
+  padding: 9px;
+  background-color: black;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+button > a {
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button > a:hover {
+  color: black;
+}
+
+.linkGoogle{
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+}
